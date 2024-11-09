@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>"Holaaa"</h1>
-</body>
-</html>
+<x-layout>
+    <x-slot:title>{{ $title }}</x-slot:title>
+    <h3 class="text-xl">ini page untuk show tenant</h3>
+    <p>aku {{ $nama }}</p>
+  </x-layout>
